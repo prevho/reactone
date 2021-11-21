@@ -1,0 +1,11 @@
+.edit {
+    color: white;
+    font-family: candara;
+    background-color: red;
+}
+
+.image1, img {
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
