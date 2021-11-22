@@ -6,7 +6,9 @@ import React from "react";
 // import Greeting from "./components/Greeting";
 // import Propsy from "./components/Propsy";
 // import Contact from "./components/Contact";
-import Destructuring from "./components/Destructuring";
+// import Destructuring from "./components/Destructuring";
+// import Mapping from "./components/Mapping";
+import FunctionalState from "./components/FunctionalState";
 
 // All components
 // ReactDOM.render(<Functional />, document.getElementById('root'));
@@ -31,7 +33,12 @@ class Control extends React.Component {
 
           <Contact name="Precious" post="Manager" image="https://via.placeholder.com/500"/> */}
 
-          <Destructuring name ="Walex" age = "40"/>
+          {/* <Destructuring name ="Walex" age = "40"/> */}
+
+
+          {/* <Mapping /> */}
+
+          <FunctionalState />
           
      </div>
     );
